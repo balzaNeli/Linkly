@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Linkly",
+    "description": "Minha página de links pessoal",
+    "html_url": "https://github.com/balzaNeli/Linkly"
+  },
+  {
+    "name": "Aprendendo Vite + React",
+    "description": "Estudos iniciais com Vite e React",
+    "html_url": "https://github.com/balzaNeli/Aprendendo-Vite-React"
+  },
+  {
+    "name": "Aprendendo a Criar API",
+    "description": "Estudos de criação de APIs",
+    "html_url": "https://github.com/balzaNeli/Aprendendo-A-Criar-API"
+  },
+  {
+    "name": "Tenda Medieval",
+    "description": "Projeto de loja medieval",
+    "html_url": "https://github.com/balzaNeli/TendaMedieval"
+  },
+  {
+    "name": "Landing Page",
+    "description": "Projeto de landing page",
+    "html_url": "https://github.com/balzaNeli/LandingPage"
+  },
+  {
+    "name": "C++",
+    "description": "Estudos de C++",
+    "html_url": "https://github.com/balzaNeli/CPP"
+  }
+]

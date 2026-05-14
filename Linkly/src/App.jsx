@@ -9,11 +9,10 @@ function App() {
   const [repos, setRepos] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/balzaNeli/repos?sort=updated")
+    fetch("/repos.json")
       .then((res) => res.json())
       .then((data) => setRepos(data));
   }, []);
-
   return (
     <div className="page-wrapper">
       <div className="profile">
@@ -32,21 +31,29 @@ function App() {
           <a href="https://github.com/balzaNeli">
             <img src={Github} alt="Github" />
           </a>
-          
         </div>
         <p>Projetos do Github:</p>
       </div>
 
       <div className="link-section">
         {repos.map((repo) => (
-          <a href={repo.html_url} target="_blank" key={repo.id} className="link-card">
+          <a
+            href={repo.html_url}
+            target="_blank"
+            key={repo.id}
+            className="link-card"
+          >
             <span>{repo.name}</span>
             <p>{repo.description}</p>
           </a>
         ))}
       </div>
 
-      <div className="footer"></div>
+      <div className="footer">
+        <h1>
+          <strong>Feito com Linkly.</strong>
+        </h1>
+      </div>
     </div>
   );
 }
