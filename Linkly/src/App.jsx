@@ -51,7 +51,8 @@ function App() {
 
       <div className="footer">
         <h1>
-          <strong>Feito com Linkly.</strong>
+          <strong>Feito com Linkly.</strong><br />
+          Feito por balzaNeli.
         </h1>
       </div>
     </div>
