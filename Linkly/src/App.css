@@ -1,0 +1,100 @@
+:root {
+  /* Cores */
+  --color-bg: #f9f9f7;
+  --color-surface: #ffffff;
+  --color-border: #e8e8e4;
+  --color-text: #111110;
+  --color-muted: #888884;
+  --color-accent: #1a1a1a;
+  --color-accent-hover: #333333;
+
+  /* Tipografia */
+  --font-display: "Instrument Serif", serif;
+  --font-ui: "Geist", sans-serif;
+
+  --text-xl: 2rem;
+  --text-lg: 1.125rem;
+  --text-base: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.75rem;
+
+  /* Espaçamento */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Bordas */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-full: 9999px;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body{
+  min-height: 100vh;
+}
+
+.page-wrapper {
+  animation: fadeUp 400ms ease-out both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 80px 16px;
+}
+
+.page-wrapper:nth-child(1) {
+  animation-delay: 0ms;
+}
+.page-wrapper:nth-child(2) {
+  animation-delay: 60ms;
+}
+.page-wrapper:nth-child(3) {
+  animation-delay: 120ms;
+}
+
+
+.profileImg{
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  border: 3px solid var(--color-border);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  color: var(--color-text);
+  
+}
+h1{
+  font-size: var(--text-xl);
+}
+.links-media {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-4);
+  align-items: center;
+}
+.links-media a img {
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,47 @@
+:root {
+
+  --color-bg:           #F9F9F7;
+  --color-surface:      #FFFFFF;
+  --color-border:       #E8E8E4;
+  --color-text:         #111110;
+  --color-muted:        #888884;
+  --color-accent:       #1A1A1A;
+  --color-accent-hover: #333333;
+
+
+  --font-display: 'Instrument Serif', serif;
+  --font-ui:      'Geist', sans-serif;
+
+  --text-xl:   2rem;
+  --text-lg:   1.125rem;
+  --text-base: 1rem;
+  --text-sm:   0.875rem;
+  --text-xs:   0.75rem;
+
+
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Bordas */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-full: 9999px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+}
